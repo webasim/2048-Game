@@ -59,11 +59,12 @@ input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placehol
 }
  
 h1.title {
-    font-size: 90px;
+    font-size: 100px;
     font-weight: bold;
-    margin: 0;
+    margin: 0px;
     display: block;
     float: left;
+    justify-content: center;
 }
  
 @-webkit-keyframes move-up {
@@ -118,7 +119,7 @@ h1.title {
     font-weight: bold;
     border-radius: 3px;
     color: white;
-    margin-top: 8px;
+    margin-top: 0px;
     text-align: center;
 }
  
@@ -152,11 +153,11 @@ h1.title {
 }
  
 .score-container:after {
-    content: "Score";
+    content: "you";
 }
  
 .best-container:after {
-    content: "Best";
+    content: "g.o.a.t.";
 }
  
 p {
@@ -249,7 +250,8 @@ hr {
 }
  
 .game-container {
-    margin-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     position: relative;
     padding: 15px;
     cursor: default;
@@ -775,12 +777,27 @@ hr {
 }
  
 .game-intro {
-    float: left;
-    line-height: 42px;
+    text-align: center;
+    line-height: 40px;
     margin-bottom: 0;
 }
  
 .restart-button {
+    display: inline-block;
+    background: #8f7a66;
+    border-radius: 3px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #f9f6f2;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    float: left;
+}
+
+#reset-button{
     display: inline-block;
     background: #8f7a66;
     border-radius: 3px;
@@ -821,7 +838,8 @@ hr {
  
     h1.title {
         font-size: 27px;
-        margin-top: 15px;
+        margin-top: 0px;
+        justify-content: center;
     }
  
     .container {
@@ -830,7 +848,7 @@ hr {
     }
  
     .score-container, .best-container {
-        margin-top: 0;
+        margin-top: 0px;
         padding: 15px 10px;
         min-width: 40px;
     }
@@ -840,7 +858,7 @@ hr {
     }
  
     .game-intro {
-        width: 55%;
+        width: 100%;
         display: block;
         box-sizing: border-box;
         line-height: 1.65;
@@ -853,9 +871,17 @@ hr {
         box-sizing: border-box;
         margin-top: 2px;
     }
+    #reset-button {
+        width: 42%;
+        padding: 0;
+        display: block;
+        box-sizing: border-box;
+        margin-top: 2px;
+    }
  
     .game-container {
-        margin-top: 17px;
+        margin-top: 0px;
+        margin-bottom: 10px;
         position: relative;
         padding: 10px;
         cursor: default;
