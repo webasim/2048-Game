@@ -1,5 +1,5 @@
 html, body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background: #faf8ef;
     color: #776e65;
@@ -59,7 +59,7 @@ input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placehol
 }
  
 h1.title {
-    font-size: 80px;
+    font-size: 90px;
     font-weight: bold;
     margin: 0;
     display: block;
@@ -1271,3 +1271,4 @@ hr {
         bottom: 2px;
     }
 }
+
